@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		77052F721C17499F00680CF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77052F711C17499F00680CF7 /* main.m */; };
+		77A05BFA1C19677D00130AB7 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A05BF91C19677D00130AB7 /* BNRItem.m */; };
+		77BE3F871C23ECE500118FBF /* BNRContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BE3F861C23ECE500118FBF /* BNRContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		77052F6E1C17499F00680CF7 /* RandomItems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RandomItems; sourceTree = BUILT_PRODUCTS_DIR; };
 		77052F711C17499F00680CF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77A05BF81C19677D00130AB7 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		77A05BF91C19677D00130AB7 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		77A877571C2FCC2B001FD219 /* exericises2-10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "exericises2-10.m"; sourceTree = "<group>"; };
+		77BE3F851C23ECE500118FBF /* BNRContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRContainer.h; sourceTree = "<group>"; };
+		77BE3F861C23ECE500118FBF /* BNRContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				77052F711C17499F00680CF7 /* main.m */,
+				77A877571C2FCC2B001FD219 /* exericises2-10.m */,
+				77A05BF81C19677D00130AB7 /* BNRItem.h */,
+				77A05BF91C19677D00130AB7 /* BNRItem.m */,
+				77BE3F851C23ECE500118FBF /* BNRContainer.h */,
+				77BE3F861C23ECE500118FBF /* BNRContainer.m */,
 			);
 			path = RandomItems;
 			sourceTree = "<group>";
@@ -119,6 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				77052F721C17499F00680CF7 /* main.m in Sources */,
+				77A05BFA1C19677D00130AB7 /* BNRItem.m in Sources */,
+				77BE3F871C23ECE500118FBF /* BNRContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +251,7 @@
 				77052F771C17499F00680CF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

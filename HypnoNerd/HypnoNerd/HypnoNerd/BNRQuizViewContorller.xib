@@ -5,11 +5,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BNRQuizViewContorllerViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BNRQuizViewContorller">
             <connections>
-                <outlet property="answerLabel" destination="ruD-bg-IwR" id="QUU-6J-JsT"/>
-                <outlet property="questionLabel" destination="4fs-2d-Exg" id="Vlf-Xf-twM"/>
-                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="answerLabel" destination="ruD-bg-IwR" id="Mog-4B-lle"/>
+                <outlet property="questionLabel" destination="4fs-2d-Exg" id="BQY-gk-RSx"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="o6o-MZ-0uZ"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -34,7 +34,7 @@
                     <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Show Answer"/>
                     <connections>
-                        <action selector="showAnswer:" destination="-1" eventType="touchUpInside" id="0aL-zd-rPF"/>
+                        <action selector="showAnswer:" destination="-1" eventType="touchUpInside" id="U3d-0o-zd1"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vnh-K1-4KW">
@@ -42,7 +42,7 @@
                     <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Show Question"/>
                     <connections>
-                        <action selector="showQuestion:" destination="-1" eventType="touchUpInside" id="ecf-ER-0Qi"/>
+                        <action selector="showQuestion:" destination="-1" eventType="touchUpInside" id="xNB-nW-ATJ"/>
                     </connections>
                 </button>
             </subviews>
